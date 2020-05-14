@@ -6,7 +6,7 @@
         <p>What tasks are you planning to perform?</p>
       </div>
       <div class="todo-editing_body">
-        <textarea rows="3" v-model="editing.text"></textarea>
+        <textarea rows="3" v-model="editing.text" placeholder="type here"></textarea>
         <p class="todo-editing_meta">
           <i :class="['fa', `fa-${selected.todo.icon}`]"></i>
           {{ selected.todo.name }}

@@ -2,7 +2,7 @@
   <div class="user" v-if="user">
     <Home :name="user" :imgSrc="imgSrc"  />
   </div>
-  <div v-else>
+  <div v-else class="login">
     <div class="user_pic" @click="handleClick">
       <input type="file" id="imgChange" class="upload" @change="addImg" ref="inputer" style="display: none;" />
       <img id="img" src="../assets/test.jpeg" class="img" />
@@ -60,7 +60,9 @@ export default {
   body {
     height: 100%;
     // font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
-    background-color: #8aba87;
+    background-color: #8aba87;    
+  }
+  .login {
     text-align: center;
     // font-size: 34px;
   }

@@ -127,6 +127,7 @@ export default {
   padding: 0 20px;
   transform: translate3d(0, 189px, 0);
   will-change: transform;
+  margin: 1px 1px;
 }
 .todo_icon {
   display: flex;

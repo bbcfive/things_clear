@@ -1,7 +1,8 @@
 <template>
   <div class="avatar" :class="{ avatar__selected: !!selected }">
     <div class="avatar_face">
-      <img :src="imgSrc" />
+      <img v-if="imgSrc" :src="imgSrc" />
+      <img v-if="!imgSrc" src="../assets/test.jpeg" />
     </div>
     <h2 class="avatar_name">Hello, {{ name }}.</h2>
     <p class="avatar_tips">

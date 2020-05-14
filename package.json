@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "Things-Clear",
   "version": "0.0.1",
   "author": "bbcfive <bbcfive@163.com>",
   "description": "An electron-vue project",
@@ -22,7 +22,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "my-project",
+    "productName": "Things-Clear",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"
