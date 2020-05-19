@@ -14,7 +14,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:9080
+# serve with hot reload
 npm run dev
 
 # build electron application for production
